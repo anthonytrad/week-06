@@ -1,0 +1,68 @@
+body {
+	background-color: #d3d;
+}
+
+.small-view {
+	display: block;
+}
+
+.medium-view {
+	display: none;
+}
+
+.large-view {
+	display: none;
+}
+
+h1 {
+	font-size: 16px;
+	color: #ccc;
+}
+/* Medium View */
+@media (min-width: 600px) {
+	body {
+		background-color: #78efb3;
+	}
+	
+	h1 {
+		color: #d18f30;
+	}
+	
+	.small-view {
+		display: none;
+	}
+	
+	.medium-view {
+		display: block;
+	}
+}
+
+/* Large View */
+@media (min-width: 1000px) {
+	body {
+		background-color: green;
+	}
+	
+	h1 {
+		color: blue;
+	}
+	
+	.small-view {
+		display: none;
+	}
+	
+	.medium-view {
+		display: none;
+	}
+	
+	.large-view {
+		display: block;
+	}
+}
+
+
+
+
+
+
+

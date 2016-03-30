@@ -1,0 +1,48 @@
+/* Global Styles */
+.full-w-container {
+	max-width: 100%;
+	width: 100%;
+}
+
+header {
+	padding: 60px 0 20px;
+	background-color: #333;
+}
+
+ .logo { 
+	display: block;
+	margin: 0 auto;
+}
+
+/* 
+nav.main-nav ul {
+	margin: 0 auto;
+}
+
+nav.main-nav ul li {
+	list-style-type: none;
+	float: left;
+} 
+
+nav.main-nav ul li a {
+	color: #000;
+	text-decoration: none;
+	display: block;
+	padding: 4px 20px;
+}
+
+nav.main-nav ul li a:hover {
+	background-color: #999;
+}
+ */
+
+@media (max-width: 505px) { 
+	header {
+		padding: 20px;
+	}
+	
+	.logo {
+		width: 100%;
+		height: 100%;
+	}
+}
